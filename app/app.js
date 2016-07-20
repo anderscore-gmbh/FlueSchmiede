@@ -9,8 +9,7 @@ angular.module('myApp', [
   'myApp.tutor',
   'myApp.tutorials',
   'myApp.whichTut',
-  'myApp.version',
-  'myApp.slides'
+  'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider) {
     $locationProvider.hashPrefix('!');
