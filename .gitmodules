@@ -1,0 +1,3 @@
+[submodule "app/slides"]
+	path = app/slides
+	url = https://github.com/mjohenneken/anderscore-slide-template.git
