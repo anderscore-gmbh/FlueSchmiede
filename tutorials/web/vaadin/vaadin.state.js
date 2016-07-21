@@ -1,14 +1,14 @@
 'use strict';
 
-angular.module('myApp.wicket', ['ngRoute'])
+angular.module('myApp.tutorials.web.vaadin', ['ngRoute'])
 
 .config(['$routeProvider', function ($routeProvider) {
-    $routeProvider.when('/wicket', {
-        templateUrl: 'wicket/wicket.html',
-        controller: 'wicketCtrl'
+    $routeProvider.when('/tutorials/web/vaadin', {
+        templateUrl: 'tutorials/web/vaadin/vaadin.html',
+        controller: 'vaadinCtrl'
     });
 }])
 
-.controller('wicketCtrl', [function () {
+.controller('vaadinCtrl', [function () {
 
 }]);

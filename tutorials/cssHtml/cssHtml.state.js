@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('myApp.cssHtml', ['ngRoute'])
+angular.module('myApp.tutorials.cssHtml', ['ngRoute'])
 
 .config(['$routeProvider', function ($routeProvider) {
-    $routeProvider.when('/cssHtml', {
-        templateUrl: 'cssHtml/cssHtml.html',
+    $routeProvider.when('/tutorials/cssHtml', {
+        templateUrl: 'tutorials/cssHtml/cssHtml.html',
         controller: 'cssHtmlCtrl'
     });
 }])

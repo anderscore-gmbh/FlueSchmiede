@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('myApp.wicket', ['ngRoute'])
+angular.module('myApp.tutorials.web.wicket', ['ngRoute'])
 
 .config(['$routeProvider', function ($routeProvider) {
-    $routeProvider.when('/wicket', {
-        templateUrl: 'wicket/wicket.html',
+    $routeProvider.when('/tutorials/web/wicket', {
+        templateUrl: 'tutorials/web/wicket/wicket.html',
         controller: 'wicketCtrl'
     });
 }])

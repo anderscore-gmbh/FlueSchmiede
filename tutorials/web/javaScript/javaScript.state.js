@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('myApp.javaScript', ['ngRoute'])
+angular.module('myApp.tutorials.web.javaScript', ['ngRoute'])
 
 .config(['$routeProvider', function ($routeProvider) {
-    $routeProvider.when('/javaScript', {
-        templateUrl: 'javaScript/javaScript.html',
+    $routeProvider.when('/tutorials/web/javaScript', {
+        templateUrl: '/tutorials/web/javaScript/javaScript.html',
         controller: 'javaScriptCtrl'
     });
 }])
