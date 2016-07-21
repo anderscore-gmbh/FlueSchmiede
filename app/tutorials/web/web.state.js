@@ -1,14 +1,20 @@
 'use strict';
 
-angular.module('myApp.tutorials', ['ngRoute'])
+angular.module('myApp.tutorials.web', [
+    'ngRoute',
+    'myApp.tutoirals.web.javaScript',
+    'myApp.tutoirals.web.spring',
+    'myApp.tutoirals.web.vaading',
+    'myApp.tutoirals.web.wicket'
+])
 
 .config(['$routeProvider', function ($routeProvider) {
-    $routeProvider.when('/tutorials', {
-        templateUrl: 'tutorials/tutorials.html',
-        controller: 'tutorialsCtrl'
+    $routeProvider.when('/tutorials/web', {
+        templateUrl: 'tutorials/web/web.html',
+        controller: 'webCtrl'
     });
 }])
 
-.controller('tutorialsCtrl', [function () {
+.controller('webCtrl', [function () {
 
 }]);

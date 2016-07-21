@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('myApp.memrise', ['ngRoute'])
+angular.module('myApp.tutorials.memrise', ['ngRoute'])
 
 .config(['$routeProvider', function ($routeProvider) {
-    $routeProvider.when('/memrise', {
-        templateUrl: 'memrise/memrise.html',
+    $routeProvider.when('/tutorials/memrise', {
+        templateUrl: 'tutorials/memrise/memrise.html',
         controller: 'memriseCtrl'
     });
 }])

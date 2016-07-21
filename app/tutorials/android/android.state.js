@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('myApp.android', ['ngRoute'])
+angular.module('myApp.tutorials.android', ['ngRoute'])
 
 .config(['$routeProvider', function ($routeProvider) {
-    $routeProvider.when('/android', {
-        templateUrl: 'android/android.html',
+    $routeProvider.when('/tutorials/android', {
+        templateUrl: 'tutorials/android/android.html',
         controller: 'androidCtrl'
     });
 }])
