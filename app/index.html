@@ -12,9 +12,9 @@
     <title>FlüSchmiede Aufgabensammlung</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
     <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="app.css">
     <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -38,17 +38,25 @@
                             <li><a href="#!/whichTut">Welches Tutorial is für mich das richtige?</a></li>
                             <li><a href="#!/tutorials">Tutorials</a></li>
                             <ul>
-                                <li><a href="#!/tutorials">Tutorials</a></li>
-                                <li><a href="#!/tutorials">Tutorials</a></li>
-                                <li><a href="#!/tutorials">Tutorials</a></li>
-                                <li><a href="#!/tutorials">Tutorials</a></li>
-                                <li><a href="#!/tutorials">Tutorials</a></li>
+                                <li><a href="#!/tutorials/memrise">Memrise</a></li>
+                                <li><a href="#!/tutorials/cssHtml">CSS/HTML</a></li>
+                                <li><a href="#!/tutorials/java">Java</a></li>
+                                <li><a href="#!/tutorials/android">Android</a></li>
+                                <li><a href="#!/tutorials/web/">Webtechnologien</a></li>
+                                <ul>
+                                    <li><a href="#!/tutorials/web/javaScript">javaScript</a></li>
+                                    <li><a href="#!/tutorials/web/spring">Spring</a></li>
+                                    <li><a href="#!/tutorials/web/wicket">Wicket</a></li>
+                                    <li><a href="#!/tutorials/web/vaadin">Vaadin</a></li>
+                                </ul>
                             </ul>
                             <li><a href="#!/questions">Hilfe finden</a></li>
                             <li><a href="#!/tutor">Der Tutor</a></li>
                             <li><a href="#!/hintsHardware">Hinweise zu den Computern</a></li>
                             <li><a href="slides/index.html" target="_blank">Folien aus der Einführung</a></li>
                         </ul>
+
+
                     </div>
                 </div>
             </div>
@@ -77,10 +85,26 @@
     <script src="questions/questions.state.js"></script>
     <script src="tutor/tutor.state.js"></script>
     <script src="tutorials/tutorials.state.js"></script>
+    <script src="tutorials/android/android.html"></script>
+    <script src="tutorials/cssHtml/cssHtml.state.js"></script>
+    <script src="tutorials/java/java.state.js"></script>
+    <script src="tutorials/memrise/memrise.state.js"></script>
+    <script src="tutorials/web/web.state.js"></script>
+    <script src="tutorials/web/javaScript/javaScript.state.js"></script>
+    <script src="tutorials/web/spring/spring.state.js"></script>
+    <script src="tutorials/web/vaadin/vaadin.state.js"></script>
+    <script src="tutorials/web/wicket/wicket.state.js"></script>
     <script src="whichTut/whichTut.state.js"></script>
     <script src="components/version/version.js"></script>
     <script src="components/version/version-directive.js"></script>
     <script src="components/version/interpolate-filter.js"></script>
+    <script>
+        ((window.gitter = {}).chat = {}).options = {
+            room: 'anderscore-gmbh/FlueSchmiede'
+        };
+
+    </script>
+    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.tutorials.web.vaadin', ['ngRoute'])
+angular.module('myApp.tutorials')
 
 .config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/tutorials/web/vaadin', {
