@@ -1,13 +1,6 @@
 'use strict';
 
-angular.module('myApp.tutorials', [
-    'ngRoute',
-    'myApp.turoials.android',
-    'myApp.turoials.cssHtml',
-    'myApp.turoials.java',
-    'myApp.turoials.memrise',
-    'myApp.turoials.web'
-])
+angular.module('myApp.tutorials', ['ngRoute'])
 
 .config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/tutorials', {

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.tutorials.web.spring', ['ngRoute'])
+angular.module('myApp.tutorials')
 
 .config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/tutorials/web/spring', {

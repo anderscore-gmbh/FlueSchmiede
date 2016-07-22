@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.tutorials.java', ['ngRoute'])
+angular.module('myApp.tutorials')
 
 .config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/tutorials/java', {

@@ -1,12 +1,6 @@
 'use strict';
 
-angular.module('myApp.tutorials.web', [
-    'ngRoute',
-    'myApp.tutoirals.web.javaScript',
-    'myApp.tutoirals.web.spring',
-    'myApp.tutoirals.web.vaading',
-    'myApp.tutoirals.web.wicket'
-])
+angular.module('myApp.tutorials')
 
 .config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/tutorials/web', {
