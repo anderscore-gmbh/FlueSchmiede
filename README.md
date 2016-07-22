@@ -295,3 +295,6 @@ For more information on AngularJS please check out http://angularjs.org/
 [karma]: http://karma-runner.github.io
 [travis]: https://travis-ci.org/
 [http-server]: https://github.com/nodeapps/http-server
+
+##License
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/de/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/de/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/de/">Creative Commons Namensnennung-Nicht kommerziell 2.0 Deutschland Lizenz</a>.
